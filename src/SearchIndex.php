@@ -7,7 +7,7 @@ use Firesphere\ElasticSearch\Indexes\ElasticIndex;
 class SearchIndex extends ElasticIndex
 {
 
-    public function getIndexName()
+    public function getIndexName(): string
     {
         return 'search-testindex';
     }
